@@ -1,3 +1,4 @@
+# main
 import tensorflow as tf
 
 def self_attention(input_shape, prefix='att', mask=False, **kwargs):
