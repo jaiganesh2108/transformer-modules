@@ -1,6 +1,6 @@
 # 🧠 Transformer Core Modules for Language Translation (TensorFlow)
 
-This project implements **core components of the Transformer architecture** using TensorFlow/Keras — the same architecture used in models like **ChatGPT** and other large language models.
+This project implements **core components of the Transformer architecture** using TensorFlow — the same architecture used in models like **ChatGPT** and other large language models.
 
 These reusable modules include:
 
@@ -151,5 +151,4 @@ Contributions are welcome! Please fork this repository, make changes, and submit
 ## 🧠 Built With
 
 - TensorFlow
-- Keras
 - Python 3.8+

@@ -62,8 +62,4 @@ def feed_forward(input_shape, model_dim, ff_dim, dropout=.1, prefix='ff'):
     model = tf.keras.Model(inputs=inputs, outputs=output, name=f'{prefix}_ff')
 
     return model
-
-ff_dim = 512
-
-model = feed_forward(input_shape = (seq_length, key_dim), model_dim = key_dim, ff_dim = ff_dim)
-tf.keras.utils.plot_model(model)
+    
